@@ -1,0 +1,6 @@
+flowchart TD
+    A[Submit Note] --> B[Create Note Object]
+    B --> C[Append New Note to Notes List]
+    C --> D[Clear Form]
+    D --> E[Update Note List]
+    E --> F[Send Note to Server]
